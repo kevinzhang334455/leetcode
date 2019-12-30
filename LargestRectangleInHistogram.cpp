@@ -10,7 +10,7 @@ using namespace std;
 class Solution
 {
 public:
-	int largestRectangleArea(vector<int>& heights)
+  int largestRectangleArea(vector<int>& heights)
 	{
 		if (heights.empty())
 			return 0;
